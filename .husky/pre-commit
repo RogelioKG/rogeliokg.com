@@ -1,0 +1,25 @@
+#!/bin/sh
+set -e
+
+# Colors
+R='\033[1;31m'
+G='\033[1;32m'
+B='\033[1;34m'
+Y='\033[1;33m'
+N='\033[0m'
+
+print() {
+    printf "$1$2${N}\n"
+}
+
+print "${B}" "🕵️  Linting codebase..."
+
+pnpm nuxi prepare
+
+if pnpm run lint; then
+    print "${G}" "✅ All good! Committing..."
+else
+    print "${R}" "❌ Lint failed! Commit aborted."
+    print "${Y}" "💡 Tip: Run 'pnpm run lint:fix' to auto-fix issues."
+    exit 1
+fi

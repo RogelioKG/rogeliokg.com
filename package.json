@@ -1,0 +1,29 @@
+{
+  "name": "rogeliokg.com",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@vueuse/core": "^14.2.1",
+    "better-sqlite3": "^12.6.2",
+    "docus": "latest",
+    "nuxt": "^4.3.1",
+    "vanilla-tilt": "^1.8.1"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.15.2",
+    "eslint": "^10.2.1",
+    "husky": "^9.1.7",
+    "tailwindcss": "^4.2.4",
+    "typescript": "^6.0.3"
+  }
+}

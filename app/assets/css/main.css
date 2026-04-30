@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Mark */
+mark {
+  background-color: oklch(0.765 0.177 163.223 / 0.35);
+  color: inherit;
+  padding: 0.1em 0.25em;
+  border-radius: 0.25em;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: oklch(45% 0.02 264);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: oklch(55% 0.02 264);
+}
+
+/* Selection */
+::selection {
+  background-color: oklch(0.765 0.177 163.223 / 0.35);
+  color: inherit;
+}
