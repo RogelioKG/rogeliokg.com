@@ -3,20 +3,13 @@ import { ref, onMounted, onUnmounted, useTemplateRef } from 'vue'
 import VanillaTilt from 'vanilla-tilt'
 import { useMediaQuery } from '@vueuse/core'
 
-defineProps({
-  frontImage: {
-    type: String,
-    default: '/business-card-front.png',
-  },
-  backImage: {
-    type: String,
-    default: '/business-card-back.png',
-  },
-})
+defineProps<{
+  frontImage: string
+  backImage: string
+}>()
 
 const cardRef = useTemplateRef<HTMLElement>('card')
 const isFlipped = ref(false)
-
 const isTouchDevice = useMediaQuery('(hover: none)')
 
 const toggleFlip = () => {

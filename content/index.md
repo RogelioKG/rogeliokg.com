@@ -10,10 +10,13 @@ seo:
 狗哥的神奇筆記
 
 #description
-::business-card{style="width: 250px;" .block .mx-auto}
+::tilt-card{style="width: 300px;" .block .mx-auto}
+---
+front-image: /business-card-front.png
+back-image: /business-card-back.png
+---
 ::
 
-#description
 嗨，我是狗哥！
 
 一名酷愛分享技術的筆記狂人。
