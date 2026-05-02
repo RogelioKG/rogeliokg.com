@@ -13,6 +13,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@nuxt/content": "^3.13.0",
     "@vueuse/core": "^14.2.1",
     "better-sqlite3": "^12.6.2",
     "docus": "latest",

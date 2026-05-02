@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@nuxt/content':
+        specifier: ^3.13.0
+        version: 3.13.0(better-sqlite3@12.9.0)(magicast@0.5.2)
       '@vueuse/core':
         specifier: ^14.2.1
         version: 14.2.1(vue@3.5.33(typescript@6.0.3))

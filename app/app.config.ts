@@ -1,13 +1,11 @@
 export default defineAppConfig({
-  socials: {
-    x: 'https://x.com/rogelio_kg',
-    github: 'https://github.com/RogelioKG',
-    youtube: 'https://youtube.com/@rogelio-kg',
-    instagram: 'https://instagram.com/kg_jerry0813',
-  },
   github: {
     url: 'https://github.com/RogelioKG',
-    branch: 'main',
+  },
+  socials: {
+    x: 'https://x.com/rogelio_kg',
+    youtube: 'https://youtube.com/@rogelio-kg',
+    instagram: 'https://instagram.com/kg_jerry0813',
   },
   header: {
     logo: {
