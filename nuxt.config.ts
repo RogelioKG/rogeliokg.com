@@ -12,6 +12,7 @@ export default defineNuxtConfig({
   site: {
     name: 'RogelioKG',
   },
+  telemetry: false,
   eslint: {
     config: {
       stylistic: true,
