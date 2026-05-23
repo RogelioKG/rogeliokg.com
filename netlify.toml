@@ -1,2 +1,2 @@
 [images]
-  remote_images = ["https://duk.tw/.*"]
+remote_images = ["https://duk.tw/.*", "https://upload.wikimedia.org/.*"]
